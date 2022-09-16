@@ -1,3 +1,5 @@
+Write a program in C++ to print Floyd’s Triangle by using the constructor destructor
+
 #include<iostream>
 using namespace std;
 class T4Tutorials_Floyds_Triangle
@@ -5,10 +7,9 @@ class T4Tutorials_Floyds_Triangle
 	public:
 		int i,j,p,q,n;
 		public:
-//constructor
-			T4Tutorials_Floyds_Triangle()         			{
-             	cout<<"Please enter the no of rows";
-	            cin>>n;
+	T4Tutorials_Floyds_Triangle(){
+		cout<<"Please enter the no of rows";
+	         cin>>n;
                	for(i=1;i<=n;i++)
              	{
 		if(i%2==0)
