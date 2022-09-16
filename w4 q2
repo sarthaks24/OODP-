@@ -6,7 +6,7 @@ using namespace std;
 class pyramid
 {
 	private:
-		int r,T4Tutorials,SHOW,n,no;
+		int r,i,j,n,no;
 		public:
 			pyramid()  //constructor
 			{
@@ -17,12 +17,12 @@ class pyramid
 			{
 				for(r=1;r<=no;r++)
 				{
-					for(T4Tutorials=1;T4Tutorials<=n;T4Tutorials++)
+					for(i=1;i<=n;i++)
 					{
 						cout<<" ";
 					}
 					n--;
-					for(SHOW=1;SHOW<=r;SHOW++)
+					for(j=1;j<=r;j++)
 					{
 						cout<<" "<<r;
 					}
